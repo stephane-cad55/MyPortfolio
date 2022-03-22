@@ -1,7 +1,7 @@
 $('<div></div>')
     .attr('id', 'scrolltotop')
     .hide()
-    .css({ 'z-index': '1000', 'position': 'fixed', 'bottom': '5px', 'right': '5px', 'cursor': 'pointer', 'width': '45px', 'height': '45px', 'background': 'white', 'border-radius': '50px', })
+    .css({ 'z-index': '1000', 'position': 'fixed', 'bottom': '30px', 'right': '5px', 'cursor': 'pointer', 'width': '45px', 'height': '45px', 'background': 'white', 'border-radius': '50px', })
     .appendTo('body')
     .click(function () {
         $('html,body').animate({ scrollTop: 0 }, 'slow');
